@@ -2,4 +2,4 @@ bitrix
 .htaccess
 upload
 urlrewrite
-local\modules
+
