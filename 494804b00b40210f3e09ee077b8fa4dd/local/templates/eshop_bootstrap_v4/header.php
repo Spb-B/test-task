@@ -113,6 +113,14 @@ $curPage = $APPLICATION->GetCurPage(true);
 								</div>
 							</div>
 						</div>
+					<div class="test">
+						<?$APPLICATION->IncludeComponent(
+							"bitrix:main.include",
+							"",
+							Array(),
+								false
+						);?>
+					</div>
 					</div>
 				</div>
 			</div>
