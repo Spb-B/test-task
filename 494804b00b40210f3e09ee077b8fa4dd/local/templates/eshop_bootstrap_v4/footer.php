@@ -128,6 +128,19 @@
 								array('HIDE_ICONS' => 'Y')
 							);?>
 						</div>
+						<div class="hello">
+							<?$APPLICATION->IncludeComponent(
+									"bitrix:main.include", 
+									".default", 
+									array(
+										"COMPONENT_TEMPLATE" => ".default",
+										"AREA_FILE_SHOW" => "page",
+										"AREA_FILE_SUFFIX" => "inc_h",
+										"EDIT_TEMPLATE" => ""
+									),
+									false
+								);?>
+						</div>
 						<div id="bx-composite-banner" style="padding-top: 20px"></div>
 					</div>
 					<div class="col-sm-6 col-lg-3 order-lg-1 order-4">
